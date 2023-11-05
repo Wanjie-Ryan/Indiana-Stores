@@ -20,3 +20,57 @@
     justify-content: space-around;
     border-bottom:1px solid white;
 }
+
+.nav-tags{
+    margin-top:30px;
+    color:white;
+    font-weight:500;
+}
+
+.a-tag{
+    color:white;
+    text-decoration: none;
+    cursor:pointer;
+    font-weight:500;
+}
+
+.cart-main{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    gap:2rem;
+    margin-top:40px;
+}
+
+.cart-image{
+    width:45%;
+
+}
+
+.image-container{
+    width:100%;
+}
+
+.cart-image-actual{
+    width:350px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: transform 0.3s ease;
+}
+
+.cart-image-actual:hover{
+
+    transform:scale(1.1);
+}
+
+.cart-details{
+
+    width:45%;
+}
+
+.cart-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+}
