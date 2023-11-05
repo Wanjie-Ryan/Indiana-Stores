@@ -6,9 +6,9 @@
 
 body {
   /* background-color: rgba(31, 37, 36, 0.452); */
-  background: url('./texture9.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url("./texture9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
   color: white;
 }

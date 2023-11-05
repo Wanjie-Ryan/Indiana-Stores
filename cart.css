@@ -1,100 +1,94 @@
-
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.main-cart{
-    width:100%;
-    min-height:100vh;
-    background: url('./texture9.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    
+.main-cart {
+  width: 100%;
+  min-height: 100vh;
+  background: url("./texture9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.main-nav{
-    display:flex;
-    height:2cm;
-    justify-content: space-around;
-    border-bottom:1px solid white;
+.main-nav {
+  display: flex;
+  height: 2cm;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
 }
 
-.nav-tags{
-    margin-top:30px;
-    color:white;
-    font-weight:500;
+.nav-tags {
+  margin-top: 30px;
+  color: white;
+  font-weight: 500;
 }
 
-.a-tag{
-    color:white;
-    text-decoration: none;
-    cursor:pointer;
-    font-weight:500;
+.a-tag {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
 }
 
-.cart-main{
-    width:90%;
-    margin-left:auto;
-    margin-right:auto;
-    display:flex;
-    gap:2rem;
-    margin-top:40px;
+.cart-main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 2rem;
+  margin-top: 40px;
 }
 
-.cart-image{
-    width:45%;
-
+.cart-image {
+  width: 45%;
 }
 
-.image-container{
-    width:100%;
+.image-container {
+  width: 100%;
 }
 
-.cart-image-actual{
-    width:350px;
-    border-radius: 5px;
-    cursor:pointer;
-    transition: transform 0.3s ease;
+.cart-image-actual {
+  width: 350px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.cart-image-actual:hover{
-
-    transform:scale(1.1);
+.cart-image-actual:hover {
+  transform: scale(1.1);
 }
 
-.cart-details{
-
-    width:45%;
+.cart-details {
+  width: 45%;
 }
 
-.cart-buttons{
-    display:flex;
-    flex-direction:column;
-    gap:2rem;
-    justify-content: center;
-    align-items:center;
+.cart-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.check-out-btns button{
-    width:170px;
-    padding:10px;
-    outline:none;
-    color:white;
-    background-color:#1473c7;
-    border:none;
-    font-weight:bold;
-    cursor:pointer;
+.check-out-btns button {
+  width: 170px;
+  padding: 10px;
+  outline: none;
+  color: white;
+  background-color: #1473c7;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.remove-items-btns button{
-    width:170px;
-    padding:10px;
-    outline:none;
-    color:white;
-    background-color:#eb5e0b;
-    border:none;
-    font-weight:bold;
-    cursor:pointer;
+.remove-items-btns button {
+  width: 170px;
+  padding: 10px;
+  outline: none;
+  color: white;
+  background-color: #eb5e0b;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
 }
