@@ -1,24 +1,57 @@
-*{
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.modal{
-    width:100%;
+.modal {
+  width: 100%;
 }
 
-.checkout{
-    width:80%;
-    /* margin-left:auto;
-    margin-right:auto; */
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    min-height:60vh;
+.checkout {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
 }
 
-.checkout-p{
-    margin-bottom:20px;
-    text-align: center;
+.checkout-p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.checkout-form-div label {
+  font-weight: 500;
+}
+
+.checkout-form-div input {
+  width: 200px;
+  padding: 5px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+.checkout-form-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkout-form-div button {
+  width: 100px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
 }
